@@ -1,9 +1,1 @@
-<div class="grid grid-cols-7 gap-[12px] mt-[52px]">
-    {% for item in chart %}
-        <div class="chart relative">
-            <div class="hidden bg-dark-brown pt-[8] pb-[9px] pl-[7.74px] pr-[8.26px] rounded-[5px] absolute top-0 text-white font-bold -translate-y-full">$52.36</div>
-            <div class="chart__bar bg-soft-red min-h-[150px] rounded-[3px]"></div>
-            <p class="chart__amount text-center text-xs leading-[15.62px] mt-[11px] text-medium-brown">{{item.day}}</p>
-        </div>
-    {% endfor %}
-</div>
+<div data-chart class="flex justify-between mt-[52px] items-end"></div>

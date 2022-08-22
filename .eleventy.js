@@ -1,7 +1,7 @@
 const htmlmin = require('html-minifier')
 const UpgradeHelper = require("@11ty/eleventy-upgrade-help");
 
-module.exports = function(eleventyConfig) {
+module.exports = function (eleventyConfig) {
   /**
    * Upgrade helper
    * Uncomment if you need help upgrading to new major version.
@@ -13,6 +13,7 @@ module.exports = function(eleventyConfig) {
    * https://www.11ty.dev/docs/copy/
    */
   eleventyConfig.addPassthroughCopy('src/img')
+  eleventyConfig.addPassthroughCopy('src/data.json')
 
   /**
    * HTML Minifier for production builds

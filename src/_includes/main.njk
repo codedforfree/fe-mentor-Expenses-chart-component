@@ -1,18 +1,18 @@
-<main class="bg-white rounded-[10px] mt-4 py-6 px-5">
-    <h2 class="font-bold text-[24px] leading-[31.25px]">Spending - Last 7 days</h2>
+<main class="bg-white rounded-[10px] mt-4 py-6 px-5 md:px-10 md:pt-8 md:pt-10">
+    <h2 class="font-bold text-[24px] leading-[31.25px] md:text-[32px] md:leading-[41.66px]">Spending - Last 7 days</h2>
 
     {% include "chart.njk" %}
 
-    <hr class="my-6 h-[2px] rounded-[1px] bg-[#F8E9DD] border-none">
+    <hr class="my-6 h-[2px] rounded-[1px] bg-[#F8E9DD] border-none md:my-8">
     <div class="">
-        <p class="text-[15px] leading-[19.53px] text-medium-brown mb-1">Total this month</p>
+        <p class="text-[15px] leading-[19.53px] text-medium-brown mb-1 md:text-[18px] md:leading-[23.44px]">Total this month</p>
         <div class="flex items-center justify-between">
             <div>
-                <p class="text-3xl leading-[39.06px] font-bold">$478.33</p>
+                <p class="js-total-spend text-3xl leading-[39.06px] font-bold md:text-[48px] md:leading-[62.5px]">$478.33</p>
             </div>
             <div>
-                <p class="text-[15px] leading-[19.53px] font-bold text-right">+2.4%</p>
-                <p class="text-[15px] leading-[19.53px] text-medium-brown text-right">from last month</p>
+                <p class="text-[15px] leading-[19.53px] font-bold text-right md:text-lg md:leading-[23.44px]">+2.4%</p>
+                <p class="text-[15px] leading-[19.53px] text-medium-brown text-right md:text-lg md:leading-[23.44px]">from last month</p>
             </div>
         </div>
     </div>
