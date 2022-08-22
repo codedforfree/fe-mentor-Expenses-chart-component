@@ -26,8 +26,8 @@ function renderData(data) {
     data.forEach((el, index) => {
         // Set variabales
         const barHtml = ` 
-        <div class="bar ${bar.block}"> 
-            <div class="bar__amount ${bar.amount}">$${el.amount}</div>
+        <div class="bar ${bar.block}">
+            <div class="bar__amount ${bar.amount}">${el.amount}</div>
             <div class="bar__chart ${bar.chart}" style="height:${Math.ceil(el.amount * 2.864)}px"></div>
             <p class="bar__day ${bar.day}">${el.day}</p>
         </div>
