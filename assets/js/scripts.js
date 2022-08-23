@@ -16,7 +16,7 @@ function fetchData() {
 const bar = {
     block: " w-[33px] md:w-[50px] relative group [&>*]:duration-300 hover:cursor-pointer",
     amount: "opacity-0 group-hover:opacity-100 bg-dark-brown text-lg leading-[23.44px] pt-[8px] pb-[9px] pl-[7.74px] pr-[8.26px] rounded-[5px] absolute bottom-full left-1/2 text-white font-bold -translate-y-2 -translate-x-1/2",
-    chart: "bg-soft-red rounded-[3px] group-hover:bg-[#FF9B86]",
+    chart: "bg-soft-red rounded-[3px] md:rounded-[5px] group-hover:bg-[#FF9B86]",
     day: "text-center text-xs leading-[15.62px] mt-[11px] text-medium-brown md:text-[15px] md:leading-[19.53px]"
 };
 
